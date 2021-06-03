@@ -21,19 +21,27 @@ public class Main {
         //Пример ввода текста с консоли и его использования
         Scanner scan = new Scanner(System.in); //объект, который может выполнять сканирование
 
-        System.out.println("Please enter your name");
+     //   System.out.println("Please enter your name");
 
-        String name = scan.nextLine(); // Принимает значение при нажатии на Ентер
-        String surname = scan.nextLine();
-        System.out.println("Hello " + name + surname);
+        //     String name = scan.nextLine(); // Принимает значение при нажатии на Ентер
+        //   String surname = scan.nextLine();
+        //   System.out.println("Hello " + name + surname);
 
         //Ввод чисел
-        System.out.println("Please enter your age");
+        //  System.out.println("Please enter your age");
 
+        //   int age = scan.nextInt();// Принимает значение при нажатии на Ентер
+
+        //  System.out.println( "In 1 year your age = " + (age+1));
+
+        System.out.println( "Please enter your age");
         int age = scan.nextInt();
-
-        System.out.println( "In 1 year your age = " + (age+1));
-
+        System.out.println( "In 1 year your age = " + (++age));
+    //    if (age<18){
+      //      System.out.println("You're young");
 
     }
+        //else {
+         //   System.out.println("You're an adult");}
+
 }
